@@ -2,9 +2,11 @@
 
 source 'https://rubygems.org'
 
-plugin 'diffend'
+# plugin 'diffend'
 
 gemspec
+
+gem "rdkafka", :git => 'https://github.com/sutrolabs/karafka-rdkafka.git', branch: 'kt/0.13.1'
 
 group :test do
   gem 'byebug'
