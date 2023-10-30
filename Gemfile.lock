@@ -1,9 +1,18 @@
+GIT
+  remote: https://github.com/sutrolabs/karafka-rdkafka.git
+  revision: 1e04dbbbee012b88c2ffa0fe33605bcae3fdb8fe
+  branch: AI/0.13-update
+  specs:
+    rdkafka (0.13.0)
+      ffi (~> 1.15)
+      mini_portile2 (~> 2.6)
+      rake (> 12)
+
 PATH
   remote: .
   specs:
     karafka-core (2.1.1)
       concurrent-ruby (>= 1.1)
-      karafka-rdkafka (>= 0.13.1, < 0.14.0)
 
 GEM
   remote: https://rubygems.org/
@@ -19,16 +28,12 @@ GEM
     docile (1.4.0)
     factory_bot (6.2.1)
       activesupport (>= 5.0.0)
-    ffi (1.15.5)
+    ffi (1.16.3)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    karafka-rdkafka (0.13.2)
-      ffi (~> 1.15)
-      mini_portile2 (~> 2.6)
-      rake (> 12)
-    mini_portile2 (2.8.2)
+    mini_portile2 (2.8.5)
     minitest (5.18.0)
-    rake (13.0.6)
+    rake (13.1.0)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
       rspec-expectations (~> 3.12.0)
@@ -52,14 +57,16 @@ GEM
       concurrent-ruby (~> 1.0)
 
 PLATFORMS
+  arm64-darwin-22
   x86_64-linux
 
 DEPENDENCIES
   byebug
   factory_bot
   karafka-core!
+  rdkafka!
   rspec
   simplecov
 
 BUNDLED WITH
-   2.4.12
+   2.3.22
