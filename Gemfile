@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem "rdkafka", :git => 'https://github.com/sutrolabs/karafka-rdkafka.git', branch: 'kt/0.13.1'
+gem "rdkafka", :git => 'https://github.com/sutrolabs/karafka-rdkafka.git', branch: 'AI/0.13'
 
 group :test do
   gem 'byebug'
