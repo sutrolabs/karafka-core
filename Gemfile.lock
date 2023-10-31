@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/sutrolabs/karafka-rdkafka.git
-  revision: 1e04dbbbee012b88c2ffa0fe33605bcae3fdb8fe
+  revision: f63e300e2d46dea0a291574014620f17d87a7f49
   branch: AI/0.13-update
   specs:
     rdkafka (0.13.0)
@@ -17,7 +17,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.5)
+    activesupport (7.0.4.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -29,7 +29,7 @@ GEM
     factory_bot (6.2.1)
       activesupport (>= 5.0.0)
     ffi (1.16.3)
-    i18n (1.14.1)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     mini_portile2 (2.8.5)
     minitest (5.18.0)
@@ -38,9 +38,9 @@ GEM
       rspec-core (~> 3.12.0)
       rspec-expectations (~> 3.12.0)
       rspec-mocks (~> 3.12.0)
-    rspec-core (3.12.2)
+    rspec-core (3.12.1)
       rspec-support (~> 3.12.0)
-    rspec-expectations (3.12.3)
+    rspec-expectations (3.12.2)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-mocks (3.12.5)
@@ -57,6 +57,7 @@ GEM
       concurrent-ruby (~> 1.0)
 
 PLATFORMS
+  arm64-darwin-21
   arm64-darwin-22
   x86_64-linux
 
