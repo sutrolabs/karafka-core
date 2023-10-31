@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/sutrolabs/karafka-rdkafka.git
-  revision: f63e300e2d46dea0a291574014620f17d87a7f49
+  revision: 6297c7944bc338dcfde2814b717e9b2bdc014f48
   branch: AI/0.13-update
   specs:
     rdkafka (0.13.0)
