@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/sutrolabs/karafka-rdkafka.git
-  revision: 619c28a21fdee92874471c43aea494ab6be8556e
+  revision: baab6fb9fb6c2abbd4f523bc43f1ec6df696b0e4
   branch: AI-RT-203-create-destroy-acl
   specs:
     rdkafka (0.13.0)
