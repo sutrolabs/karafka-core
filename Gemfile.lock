@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/sutrolabs/karafka-rdkafka.git
-  revision: f6bf821685183985175316adf28db7953f9ad288
-  branch: AI/0.13-update
+  revision: 235187dd8e50a33e52ee71765d5d60956337409c
+  branch: census_v0.15.0_rebase
   specs:
-    rdkafka (0.13.0)
+    rdkafka (0.15.0)
       ffi (~> 1.15)
       mini_portile2 (~> 2.6)
       rake (> 12)
